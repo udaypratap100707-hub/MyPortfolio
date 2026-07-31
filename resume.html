@@ -1,131 +1,198 @@
 <!DOCTYPE html>
 <html lang="en">
-
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Resume - Uday Pratap Singh</title>
-    <link rel="stylesheet" href="resume.css">
 
-    <style>
-        body {
-            font-family: Arial, sans-serif;
-            background-color: #f4f4f4;
-            margin: 0;
-            padding: 20px;
-        }
-        
-        .container {
-            max-width: 800px;
-            margin: auto;
-            background: white;
-            padding: 30px;
-            border-radius: 10px;
-            box-shadow: 0 0 10px rgba(0, 0, 0, 0.2);
-        }
-        
-        h1 {
-            color: #2c3e50;
-            margin-bottom: 5px;
-        }
-        
-        h2 {
-            color: #0077cc;
-            border-bottom: 2px solid #0085cc;
-            padding-bottom: 5px;
-        }
-        
-        p {
-            line-height: 1.5;
-        }
-        
-        ul {
-            padding-left: 20px;
-        }
-        
-        .contact {
-            color: #555;
-            margin-bottom: 20px;
-        }
-        
-        .section {
-            margin-bottom: 25px;
-        }
-    </style>
+    <script src="https://cdn.tailwindcss.com"></script>
 </head>
 
-<body>
+<body class="bg-gray-100 py-10">
 
-    <div class="container">
+    <div class="max-w-4xl mx-auto bg-white shadow-xl rounded-xl p-8">
 
-        <h1>Uday Pratap Singh</h1>
+        <div class="text-center border-b-2 border-blue-600 pb-6">
 
-        <p class="contact">
-            📞 +91-9858752646 | 📧 Uday@gmail.com | 📍 Rajasthan, India
-        </p>
+            <h1 class="text-4xl font-bold text-gray-800">
+                Uday Pratap Singh
+            </h1>
 
-        <div class="section">
-            <h2>Career Objective</h2>
-            <p>
-                Motivated Computer Science student seeking an entry-level software development role where I can apply my programming, cloud, and problem-solving skills while continuously learning new technologies.
+            <p class="mt-3 text-gray-600">
+                📞 +91-9858752646 |
+                📧 Uday@gmail.com |
+                📍 Rajasthan, India
             </p>
+
         </div>
 
-        <div class="section">
-            <h2>Education</h2>
-            <ul>
-                <li><strong>B.Tech in Computer Science</strong> – SKIT Jaipur (2025–2028)</li>
-                <li>Higher Secondary – BTTI Pilani</li>
+        <section class="mt-8">
+
+            <h2 class="text-2xl font-semibold text-blue-600 border-b-2 border-blue-500 pb-2">
+                Career Objective
+            </h2>
+
+            <p class="mt-4 text-gray-700 leading-7">
+                Motivated Computer Science student seeking an entry-level
+                software development role where I can apply my programming,
+                cloud, and problem-solving skills while continuously learning
+                new technologies.
+            </p>
+
+        </section>
+
+        <section class="mt-8">
+
+            <h2 class="text-2xl font-semibold text-blue-600 border-b-2 border-blue-500 pb-2">
+                Education
+            </h2>
+
+            <ul class="list-disc ml-6 mt-4 space-y-2 text-gray-700">
+
+                <li>
+                    <strong>B.Tech in Computer Science</strong> – SKIT Jaipur (2025–2028)
+                </li>
+
+                <li>
+                    Higher Secondary – BTTI Pilani
+                </li>
+
             </ul>
-        </div>
 
-        <div class="section">
-            <h2>Technical Skills</h2>
-            <ul>
-                <li>HTML, CSS, JavaScript</li>
-                <li>Python</li>
-                <li>C Programming</li>
-                <li>SQL</li>
-            </ul>
-        </div>
+        </section>
 
-        <div class="section">
-            <h2>Projects</h2>
-            <ul>
-                <li><strong>Personal Portfolio Website</strong> – Developed using HTML and CSS.</li>
-                <li><strong>Vehicle Service Management System</strong> – Created using Python and MySQL.</li>
-            </ul>
-        </div>
+        <section class="mt-8">
 
-        <div class="section">
-            <h2>Certifications</h2>
-            <ul>
+            <h2 class="text-2xl font-semibold text-blue-600 border-b-2 border-blue-500 pb-2">
+                Technical Skills
+            </h2>
+
+            <div class="grid grid-cols-2 md:grid-cols-4 gap-4 mt-4">
+
+                <div class="bg-blue-100 rounded-lg p-3 text-center font-medium">
+                    HTML
+                </div>
+
+                <div class="bg-blue-100 rounded-lg p-3 text-center font-medium">
+                    CSS
+                </div>
+
+                <div class="bg-blue-100 rounded-lg p-3 text-center font-medium">
+                    JavaScript
+                </div>
+
+                <div class="bg-blue-100 rounded-lg p-3 text-center font-medium">
+                    Python
+                </div>
+
+                <div class="bg-blue-100 rounded-lg p-3 text-center font-medium">
+                    C Programming
+                </div>
+
+                <div class="bg-blue-100 rounded-lg p-3 text-center font-medium">
+                    SQL
+                </div>
+
+            </div>
+
+        </section>
+
+        <section class="mt-8">
+
+            <h2 class="text-2xl font-semibold text-blue-600 border-b-2 border-blue-500 pb-2">
+                Projects
+            </h2>
+
+            <div class="grid md:grid-cols-2 gap-6 mt-4">
+
+                <div class="border rounded-lg p-5 hover:shadow-lg transition">
+
+                    <h3 class="font-bold text-lg">
+                        Personal Portfolio Website
+                    </h3>
+
+                    <p class="text-gray-600 mt-2">
+                        Developed using HTML, CSS, and responsive design principles.
+                    </p>
+
+                </div>
+
+                <div class="border rounded-lg p-5 hover:shadow-lg transition">
+
+                    <h3 class="font-bold text-lg">
+                        Vehicle Service Management System
+                    </h3>
+
+                    <p class="text-gray-600 mt-2">
+                        Developed using Python and MySQL for managing vehicle service records.
+                    </p>
+
+                </div>
+
+            </div>
+
+        </section>
+
+        <section class="mt-8">
+
+            <h2 class="text-2xl font-semibold text-blue-600 border-b-2 border-blue-500 pb-2">
+                Certifications
+            </h2>
+
+            <ul class="list-disc ml-6 mt-4 space-y-2 text-gray-700">
+
                 <li>Cloud Computing Fundamentals</li>
                 <li>Python Programming</li>
                 <li>Java Programming</li>
-            </ul>
-        </div>
 
-        <div class="section">
-            <h2>Strengths</h2>
-            <ul>
-                <li>Quick Learner</li>
-                <li>Team Player</li>
-                <li>Problem Solving</li>
-                <li>Good Communication</li>
             </ul>
-        </div>
 
-        <div class="section">
-            <h2>Languages</h2>
-            <ul>
+        </section>
+
+        <section class="mt-8">
+
+            <h2 class="text-2xl font-semibold text-blue-600 border-b-2 border-blue-500 pb-2">
+                Strengths
+            </h2>
+
+            <div class="grid grid-cols-2 gap-4 mt-4">
+
+                <div class="bg-green-100 p-3 rounded-lg text-center">
+                    Quick Learner
+                </div>
+
+                <div class="bg-green-100 p-3 rounded-lg text-center">
+                    Team Player
+                </div>
+
+                <div class="bg-green-100 p-3 rounded-lg text-center">
+                    Problem Solving
+                </div>
+
+                <div class="bg-green-100 p-3 rounded-lg text-center">
+                    Good Communication
+                </div>
+
+            </div>
+
+        </section>
+
+        <section class="mt-8">
+
+            <h2 class="text-2xl font-semibold text-blue-600 border-b-2 border-blue-500 pb-2">
+                Languages
+            </h2>
+
+            <ul class="list-disc ml-6 mt-4 space-y-2 text-gray-700">
+
                 <li>English</li>
                 <li>Hindi</li>
+
             </ul>
-        </div>
+
+        </section>
 
     </div>
 
 </body>
-
 </html>
